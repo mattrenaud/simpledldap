@@ -1,0 +1,11 @@
+.new-connection {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
+}
+
+.host-port {
+  display: grid;
+  grid-template-columns: 1fr 80px;
+  grid-gap: 10px;
+}

@@ -1,0 +1,25 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.css';
+@import '../node_modules/bootswatch/dist/yeti/bootstrap.css';
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  min-height: 48px;
+}
+
+.opacity-1 {
+  opacity: 1 !important;
+}
+
+.opacity-0 {
+  opacity: 0 !important;
+}
+
+.no-pointer-events {
+  pointer-events: none !important;
+}

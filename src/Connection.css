@@ -1,0 +1,22 @@
+.connection-link:hover {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.connection-link:hover .hidden-button {
+  visibility: visible !important;
+}
+
+.connection-link span {
+  flex-shrink: 0.1;
+}
+.connection-link small {
+  flex-shrink: 20000;
+}
+
+.connection-link span,
+.connection-link small {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

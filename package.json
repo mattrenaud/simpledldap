@@ -1,0 +1,58 @@
+{
+  "name": "simpleldap",
+  "version": "1.0.0.alpha.0",
+  "description": "simpleldap",
+  "repository": {
+    "url": "https://gitlab.com/matt/ldap"
+  },
+  "main": "app/electron.js",
+  "scripts": {
+    "start": "concurrently \"parcel src/index.html\" \"wait-on http://localhost:1234 && electron .\"",
+    "postinstall": "electron-rebuild"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "animate.css": "^3.6.1",
+    "babel-preset-react-app": "^3.1.2",
+    "bootstrap": "^4.1.1",
+    "bootswatch": "^4.1.1",
+    "change-case": "^3.0.2",
+    "classnames": "^2.2.6",
+    "concurrently": "^3.6.0",
+    "electron-rebuild": "^1.7.3",
+    "eslint": "^5.1.0",
+    "generact": "^0.3.2",
+    "history": "^4.7.2",
+    "localforage": "^1.7.2",
+    "lodash.get": "^4.4.2",
+    "lodash.pickby": "^4.6.0",
+    "lodash.set": "^4.3.2",
+    "no-case": "^2.3.2",
+    "parcel-bundler": "^1.9.4",
+    "popper.js": "^1.14.3",
+    "react": "^16.4.1",
+    "react-component-octicons": "^1.6.0",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1",
+    "react-split-pane": "0.1.77",
+    "react-tippy": "^1.2.2",
+    "sweetalert": "^2.1.0",
+    "title-case": "^2.1.1",
+    "wait-on": "^2.1.0"
+  },
+  "dependencies": {
+    "electron": "^2.0.3",
+    "electron-is-dev": "^0.3.0",
+    "keytar": "^4.2.1",
+    "ldapjs": "^1.0.2"
+  },
+  "browserslist": {
+    "development": [
+      "Chrome >= 66"
+    ],
+    "production": [
+      "Chrome >= 66"
+    ]
+  }
+}

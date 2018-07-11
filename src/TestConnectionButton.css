@@ -1,0 +1,36 @@
+.btn-test-connection {
+  transition: padding-left 0.2s ease-in-out 3s;
+  position: relative;
+}
+.btn-test-connection.show-icon {
+  transition: padding-left 0.3s ease-in-out 0s;
+  padding-left: 2.8em;
+}
+.btn-test-connection .spinner {
+  color: #f8f9fa;
+  transition: opacity 0.3s linear 0s;
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  left: 1em;
+  top: calc(50% - 0.6em);
+  opacity: 0;
+}
+.btn-test-connection:hover .spinner {
+  color: #e2e6ea;
+}
+
+.btn-test-connection .spinner.opacity-1 {
+  transition: opacity 0.3s linear 0.3s;
+}
+
+.status-icon {
+  color: rgb(108, 117, 125);
+  transition: opacity 0.3s linear 0s;
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  left: 1em;
+  top: calc(50% - 0.5em);
+  opacity: 0;
+}

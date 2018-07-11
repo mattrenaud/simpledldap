@@ -1,0 +1,5 @@
+.connections-page-container {
+  display: grid;
+  grid-template-columns: 400px 1px 400px;
+  justify-content: center;
+}
